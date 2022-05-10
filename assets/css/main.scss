@@ -1,0 +1,96 @@
+$primary: #F04E2F;
+
+@import "_fonts.scss";
+@import "bulma/bulma.sass";
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #242730;
+  color: #fff;
+  background-image: radial-gradient(rgba(73,190,255,.2) 0%, transparent 55%);
+  background-size: 200% 200%;
+  background-position: -100% 230%;
+}
+
+#main__navbar {
+  background-color: transparent;
+  padding: 0.8rem 1.2rem;
+  display: flex;
+
+  .site-logo {
+    max-height: 2rem;
+  }
+
+  .navbar-brand>a:hover {
+    background-color: transparent;
+  }
+
+  .navbar-menu {
+    background-color: transparent;
+    box-shadow: none;
+    display: flex;
+    flex: 1 0;
+
+    .navbar-end {
+      justify-content: flex-end;
+      margin-left: auto;
+      display: flex;
+    }
+  }
+}
+
+button {
+  transition: 0.2s;
+}
+
+.np__btn {
+  font-size: 14px !important;
+}
+
+.intro-title {
+  font-size: 2.3rem;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.intro-subtitle {
+  color: #A9A8A8;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.intro-text {
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+
+.icon-dots {
+  margin: 2rem 0;
+  height: 15px;
+}
+
+.animate__delay-500ms {
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+}
+
+.animate__delay-750ms {
+  animation-delay: 0.75s;
+  -webkit-animation-delay: 0.75s;
+}
+
+.animate__delay-1500ms {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
