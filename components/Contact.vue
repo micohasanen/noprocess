@@ -15,3 +15,10 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.icon.email {
+  position: relative;
+  top: 5px;
+}
+</style>
